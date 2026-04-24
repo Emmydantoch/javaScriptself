@@ -1,0 +1,15 @@
+
+#nolight{
+    width: 245px;
+    height: 350px;
+}
+
+#light{
+    width: 245px;
+    height: 350px;
+    display: none;
+}
+#showbutton{
+    
+    display: none;
+}
