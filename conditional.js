@@ -4,7 +4,6 @@
 // // We have ==, ===, !=, !==, >, <, >=, <=, ?
 
 
-
 // These are comparison operators in JavaScript, used to compare values and return a Boolean (true or false). Here's what each one does:
 
 // Equality & Inequality Operators
@@ -34,8 +33,9 @@
 // Returns true if values are not equal or their types differ.
 
 // Example:
-// console.log(5 !== "5"); // true (because types are different)
+ console.log(5 !== "5"); // true (because types are different)
 // console.log(0 !== false); // true (because types are different)
+
 // Relational (Comparison) Operators
 // > (Greater Than)
 
@@ -67,6 +67,7 @@
 // console.log(5 <= 5); // true
 // console.log(2 <= 6); // true
 // console.log(10 <= 5); // false
+
 // Ternary Operator (? :)
 // ? : (Ternary Operator)
 
@@ -76,9 +77,9 @@
 
 // condition ? value_if_true : value_if_false;
 // Example:
-let age = 18;
-let filmViewers = age >= 18 ? "You can watch" : "You cannot watch";
-console.log(filmViewers); // "You can watch"
+// let age = 18;
+// let filmViewers = age >= 10 ? "You can watch" : "You cannot watch";
+// console.log(filmViewers); // "You can watch"
 
 
 
@@ -111,6 +112,8 @@ console.log(filmViewers); // "You can watch"
 
 hour = 11
 
-if (hour > 11 ) {
+if (hour >= 11 ) {
     console.log('The 11th hour miracle has passed')
-}
+} else {
+    console.log('The 11th hour miracle is still to come')
+} 
