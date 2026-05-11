@@ -1,4 +1,4 @@
-// What is an operator?
+ // What is an operator?
 // It's what allows an operation to be performed
 
 3 + 5 // addition operation
