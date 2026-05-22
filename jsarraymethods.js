@@ -1,19 +1,29 @@
 // // Converting Arrays to Strings
 // // We use the toString Method
 
+<<<<<<< HEAD
 // let car = ["bmw", "toyota", "Volvo"]
 // console.log(car.toString())
+=======
+//let car = ["bmw", "toyota", "Volvo"]
+//console.log(car.toString())
+>>>>>>> eadd6964026dcce8cd5fc8da51bfe843f0822b75
 
 // //join()
 // // converts to string, but now we 
 // // get to specify what seperates the strings
+<<<<<<< HEAD
 // console.log(car.join(', '))
+=======
+//console.log(car.join(', '))
+>>>>>>> eadd6964026dcce8cd5fc8da51bfe843f0822b75
 
 // // Pushing Popping
 // // while .push() adds the item to 
 // // the back of the arrays
 // // .pop deletes the item at the back 
 // // of the array
+<<<<<<< HEAD
 // car.push('Tortise') // adds Tortise to the back
 // car.pop() // remove the last item of the array
 // console.log(car)
@@ -26,6 +36,22 @@
 //     console.log(car[i])
 // }
 
+=======
+//car.push('Tortise') // adds Tortise to the back
+//car.pop() // remove the last item of the array
+//console.log(car)
+
+// //shift()
+// // removes the first item
+//car.shift()
+//console.log(car)
+//let car = ["bmw", "toyota", "Volvo"]
+
+// for (let i = 0; i < car.length; i++) {
+//     console.log(car[i])
+// }
+
+>>>>>>> eadd6964026dcce8cd5fc8da51bfe843f0822b75
 // console.log(car.length)
 
 
@@ -40,8 +66,13 @@
 // //y how many items should be deleted
 // car = ["bmw", "toyota", "Volvo"]
 
+<<<<<<< HEAD
 // // // // add Tortise, remove bmw
 // car.splice(2, 2, 'Tortise')
+=======
+// // // // // add Tortise, remove bmw
+// car.splice(0, 2, 'Tortise')
+>>>>>>> eadd6964026dcce8cd5fc8da51bfe843f0822b75
 // console.log(car)
 
 // // Algorithm challenge
@@ -56,11 +87,18 @@
 // // looks like this: ø). 
 // // Then print the contents of the 
 // // disk to the terminal as a string.
+<<<<<<< HEAD
 // var targetDisk = [ 'A', 'E','i','0',];
 // targetDisk.splice(1,2)
 // console.log(targetDisk)
 // var newDisk = [];
 // var corruptionSymbol = 'i';
+=======
+
+// var targetDisk = [ 'A', 'E','i','0','U'];
+// var newDisk = [];
+// var corruptionSymbol = 'A';
+>>>>>>> eadd6964026dcce8cd5fc8da51bfe843f0822b75
 
 
     
@@ -69,14 +107,21 @@
 //              newDisk.push(targetDisk[i])
 //          } 
 //         console.log(newDisk)
+<<<<<<< HEAD
     //  }
+=======
+//      }
+>>>>>>> eadd6964026dcce8cd5fc8da51bfe843f0822b75
 
 // newDisk.push(targetDisk[0])
 // newDisk.push(targetDisk[2])
 // newDisk.push(targetDisk[3])
 
- 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> eadd6964026dcce8cd5fc8da51bfe843f0822b75
 // // Deleting Elements
 // // we use the delete keyword
 // // using this however leaves holes in our array
@@ -85,15 +130,25 @@
 // delete car[0]
 // console.log(car)
 
+<<<<<<< HEAD
 // let numbers= [1, 2, 3, 4, 5, 6, 7]
+=======
+//let numbers= [1, 2, 3, 4, 5, 6, 7]
+>>>>>>> eadd6964026dcce8cd5fc8da51bfe843f0822b75
 
 // let evenNo = numbers.filter((val) => {
 //     return val % 2 == 0
 // })
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> eadd6964026dcce8cd5fc8da51bfe843f0822b75
 // let oddNo = numbers.filter((val) => {
 //     return val % 2 !== 0
 // })
 
+<<<<<<< HEAD
 // // let children = boyChild.concat(girlChild, adopted)
 // // children = children.concat("Moses")
 
@@ -164,4 +219,81 @@
 // totalSum.push(sumEven)
 // totalSum.push(oddSum)
 
+=======
+//console.log(evenNo)
+//console.log(oddNo)
+
+
+// let children = ['christiana ', 'Abel ']
+
+// children = children.concat("Moses")
+
+
+// console.log(children)
+
+// // // slice()
+// // // creates a new array
+// // // the source array  does  not change
+// // // slice(x, y)
+// // // x => starting index, by default it is 0
+// // // y => ending index, the element at the ending index
+// // // is ignored, by default it is the length
+
+car = ["bmw", "toyota", "Volvo","benz", "suv",]
+newcar = car.slice(0, 4,) 
+
+console.log(car)
+console.log(newcar)
+
+
+// // // # Exercise
+// // // # You create an array
+// // # lets say [1, 2, 3, 4, 5, 6, 7]
+// // # odd = [1, 3, 5, 7] = 16
+// // # even = [2, 4, 6] = 12
+// // # sum = [12, 16]
+
+// // // # Hint: You can use for loops to get the sum of 
+// // // # the even and odd numbers 
+
+// let numbers= [1, 2, 3, 4, 5, 6, 7]
+// let evenNo = numbers.filter((val) => {
+//     return val % 2 == 0
+// })
+// let oddNo = numbers.filter((val) => {
+//     return val % 2 !== 0
+// })
+
+// // // We have gotten our even and odd numbers
+// for (let i = 0; i < numbers.length; i++){
+//     // when you divide an even no by 2
+//     // we get 0 as the reminder
+//     if(numbers[i] % 2 == 0 ) {
+//         evenNo.push(numbers[i]) 
+//     } else {
+//         oddNo.push(numbers[i])
+//     }
+// }
+
+// console.log(evenNo)
+// console.log(oddNo)
+
+// // // Add evenNo
+// var sumEven =  evenNo.reduce((total, val) => {
+//     return total + val
+// })
+
+// // // Add OddNo
+// var oddSum = oddNo.reduce((total, val) => {
+//     return total + val
+// })
+
+// console.log(oddSum)
+// console.log(sumEven)
+
+// let totalSum = []
+// totalSum.push(sumEven)
+// totalSum.push(oddSum)
+
+>>>>>>> eadd6964026dcce8cd5fc8da51bfe843f0822b75
 // console.log(totalSum)

@@ -58,15 +58,15 @@ console.log(user?.profile?.address?.street);  // "Ado"
 // console.log(input);
 
 //  //function 
-// //   function add(a, b){
-// //     return a + b
-// //   }
-// //     console.log(add(5, 6));
+// function add(a, b){
+//     return a + b
+// }
+// console.log(add(5, 6));
 
-// //   function multiply(a, b){
-// //     return a * b
-// //   }
-// //   console.log(multiply(5, 6));  
+//   function multiply(a, b){
+//     return a * b
+//   }
+// console.log(multiply(5, 6));  
 
 // //   same as Es6 (arrow function)
 // const add = (a,b) => a + b
@@ -85,7 +85,7 @@ console.log(user?.profile?.address?.street);  // "Ado"
 
 // // The spread operator is used to expand arrays or objects.
 // const numbers = [1, 2, 3];
-// const newNumbers = [...numbers, 4, 5]; // [1, 2, 3, 4, 5]
+// const newNumbers = [...numbers, 4, 5, 6]; // [1, 2, 3, 4, 5]
 
 // console.log(newNumbers);
 
@@ -102,9 +102,9 @@ console.log(user?.profile?.address?.street);  // "Ado"
 //     let a = 8
 //     const b = "Emmanuel"
 //     var c = "E"
-//     console.log(a) // displays a
-//     console.log(b) // displays b
-//     console.log(c) // displays c
+//      console.log(a) // displays a
+//      console.log(b) // displays b
+//      console.log(c) // displays c
 // } // ends the block
 
 // //FOR MAPS
@@ -116,13 +116,13 @@ console.log(user?.profile?.address?.street);  // "Ado"
 // // array
 
 // // Lets multiply every element by 3s
-//no1.map((item, index, no1) => {
-    //console.log(item) // prints out all our elements
-  //console.log(no1[index]) // prints out our items
-//})
-const no1 = [10, 20, 30, 40];
-// // const index = 2;
-// // console.log(no1[index]); // Output: 30
+// no1.map((item, index, no1) => {
+//   //console.log(item) // prints out all our elements
+//   console.log(no1[index]) // prints out our items
+// })
+// const no1 = [10, 20, 30, 40];
+// const index = 4;
+// console.log(no1[index]); // Output: 30
 
 
 // const no2 = { a: "apple", b: "banana", c: "cherry" };
@@ -131,17 +131,18 @@ const no1 = [10, 20, 30, 40];
 
 
 // // The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
-// let vehicles = ["bmw", "toyota", "Volvo"];
+let vehicles = ["bmw", "toyota", "Volvo"];
 
 // // Remove 'bmw' (index 0) and insert 'Tortise'
-// vehicles.splice(0, 1, "Tortise");
-
-// console.log(vehicles); // Output: [ 'Tortise', 'toyota', 'Volvo' ]
-
+vehicles.splice(2, 1, "Tortise");
+console.log(vehicles); // Output: [ 'Tortise', 'toyota', 'Volvo' ]
 
 //var targetDisk = [ 'A', 'E','i','0',];
 //var newDisk = [];
 //var corruptionSymbol = 'i';
+
+
+
 
 
     
@@ -149,5 +150,5 @@ const no1 = [10, 20, 30, 40];
         if (targetDisk[i] !== corruptionSymbol){
               newDisk.push(targetDisk[i])
           } 
-         console.log(newDisk)
+        console.log(newDisk)
       }*/
