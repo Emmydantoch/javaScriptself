@@ -56,7 +56,6 @@
 // // looks like this: ø). 
 // // Then print the contents of the 
 // // disk to the terminal as a string.
-
 // var targetDisk = [ 'A', 'E','i','0',];
 // targetDisk.splice(1,2)
 // console.log(targetDisk)
